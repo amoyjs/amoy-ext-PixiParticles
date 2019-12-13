@@ -1,7 +1,7 @@
 # amoy-ext-PixiParticles
 
 ### amoy-tool-plist2pixi-json
-use this lib your need this tool [amoy-tool-plist2pixi-json](https://github.com/amoyjs/amoy-tool-plist2pixi-json)
+use this lib you need this tool [amoy-tool-plist2pixi-json](https://github.com/amoyjs/amoy-tool-plist2pixi-json)
 
 Please see the examples for various pre-made particle configurations.
 
