@@ -1,6 +1,6 @@
 {
   "name": "@amoy/amoypixiparticles",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "lib/AmoyPixiParticles.js",
   "module": "lib/AmoyPixiParticles.es.js",
   "bundle": "dist/AmoyPixiParticles.js",
@@ -26,7 +26,7 @@
     "publish:patch": "npm version patch && node build/publish.js",
     "publish:minor": "npm version minor && node build/publish.js",
     "publish:major": "npm version major && node build/publish.js",
-    "postpublish": "git push && git push --tags && npm run docs-live",
+    "postpublish": "git push && git push --tags",
     "test": "echo done"
   },
   "peerDependencies": {
