@@ -1,6 +1,6 @@
 {
   "name": "@amoy/amoypixiparticles",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/AmoyPixiParticles.js",
   "module": "lib/AmoyPixiParticles.es.js",
   "bundle": "dist/AmoyPixiParticles.js",
@@ -17,7 +17,7 @@
     "clean": "rimraf docs/docs docs/dist .publish",
     "lint": "eslint src",
     "prebuild": "npm run lint",
-    "build": "tsc && rollup -c && npm run build:min && npm run build:dts",
+    "build": "tsc && rollup -c && npm run build:min",
     "build:min": "terser dist/AmoyPixiParticles.js -c -m -o dist/AmoyPixiParticles.min.js --source-map \"content='dist/AmoyPixiParticles.js.map',includeSources=true,filename='dist/AmoyPixiParticles.min.js.map',url='AmoyPixiParticles.min.js.map'\" --comments \"/AmoyPixiParticles.js - /\"",
     "build:dts": "dts-bundle-generator -o index.d.ts src/index.ts && node build/buildAmbientTypes.js",
     "postbuild": "ncp dist docs/dist",
