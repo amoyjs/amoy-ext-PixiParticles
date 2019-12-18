@@ -1,12 +1,12 @@
 {
-  "name": "pixi-particles",
-  "version": "4.2.0",
-  "main": "lib/pixi-particles.js",
-  "module": "lib/pixi-particles.es.js",
-  "bundle": "dist/pixi-particles.js",
+  "name": "@amoy/amoypixiparticles",
+  "version": "1.0.0",
+  "main": "lib/AmoyPixiParticles.js",
+  "module": "lib/AmoyPixiParticles.es.js",
+  "bundle": "dist/AmoyPixiParticles.js",
   "typings": "index.d.ts",
   "description": "Particle emitter for Pixi.js",
-  "author": "Andrew Start <start.andrew@gmail.com>",
+  "author": "Andrew Start <start.andrew@gmail.com> lilieming <lilieminglook@gmail.com>",
   "contributors": [
     {
       "name": "Matt Karl",
@@ -18,7 +18,7 @@
     "lint": "eslint src",
     "prebuild": "npm run lint",
     "build": "tsc && rollup -c && npm run build:min && npm run build:dts",
-    "build:min": "terser dist/pixi-particles.js -c -m -o dist/pixi-particles.min.js --source-map \"content='dist/pixi-particles.js.map',includeSources=true,filename='dist/pixi-particles.min.js.map',url='pixi-particles.min.js.map'\" --comments \"/pixi-particles.js - /\"",
+    "build:min": "terser dist/AmoyPixiParticles.js -c -m -o dist/AmoyPixiParticles.min.js --source-map \"content='dist/AmoyPixiParticles.js.map',includeSources=true,filename='dist/AmoyPixiParticles.min.js.map',url='AmoyPixiParticles.min.js.map'\" --comments \"/AmoyPixiParticles.js - /\"",
     "build:dts": "dts-bundle-generator -o index.d.ts src/index.ts && node build/buildAmbientTypes.js",
     "postbuild": "ncp dist docs/dist",
     "predocs": "ncp node_modules/pixi.js docs/examples/libs/pixi.js",
@@ -62,10 +62,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixijs/pixi-particles"
+    "url": "https://github.com/Amoyjs/AmoyPixiParticles"
   },
   "bugs": {
-    "url": "https://github.com/pixijs/pixi-particles/issues"
+    "url": "https://github.com/Amoyjs/AmoyPixiParticles/issues"
   },
   "files": [
     "dist/",
@@ -92,5 +92,5 @@
       "test/pixi-v5-module"
     ]
   },
-  "private": true
+  "private": false
 }
