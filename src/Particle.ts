@@ -346,7 +346,7 @@ export class Particle extends Sprite
 		}
 		else if(this.acceleration && !this.noRotation)
 		{
-			this.rotation = Math.atan2(this.velocity.y, this.velocity.x);// + Math.PI / 2;
+			//this.rotation = Math.atan2(this.velocity.y, this.velocity.x);// + Math.PI / 2;
 		}
 		return lerp;
 	}

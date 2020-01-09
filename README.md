@@ -21,7 +21,7 @@ var emitter = new PIXI.particles.Emitter(
 	container,
 
 	// The collection of particle images to use
-	[IXI.Texture.fromImage(textureImge)],
+	[PIXI.Texture.fromImage(textureImge)],
 
 	// Emitter configuration, edit this to change the look
 	// of the emitter
