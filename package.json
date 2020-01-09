@@ -1,6 +1,6 @@
 {
   "name": "@amoy/amoypixiparticles",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "lib/AmoyPixiParticles.js",
   "module": "lib/AmoyPixiParticles.es.js",
   "bundle": "dist/AmoyPixiParticles.js",
